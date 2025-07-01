@@ -6,6 +6,10 @@ interface LinkMenuAction {
      * The title of the menu item.
      */
     title: string;
+    /**
+     * Optional SF Symbol displayed alongside the menu item.
+     */
+    icon?: string;
     onPress: () => void;
 }
 export declare function LinkMenuAction(_: LinkMenuAction): null;
